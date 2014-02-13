@@ -250,6 +250,8 @@ module Fog
       request :put_vapp_template_metadata_item_metadata
       request :put_vm
       request :put_vm_capabilities
+      request :put_product_sections_vapp
+      request :put_vm_hardware_section
 
       class Model < Fog::Model
         def initialize(attrs={})
